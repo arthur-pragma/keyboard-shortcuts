@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menu Keyboard Shortcuts</title>
+    <link rel="stylesheet" href="https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/menubar/menubar-1/css/menubarLinks.css">
+</head>
+
+<body>
+    <nav aria-label="Mythical University">
+        <ul id="menubar1" role="menubar" aria-label="Mythical University">
+            <li>
+                <a role="menuitem" aria-haspopup="true" aria-expanded="false" href="#" tabindex="0">
+                    About
+                </a>
+            </li>
+            <li>
+                <a role="menuitem" aria-haspopup="true" aria-expanded="false" href="#" tabindex="-1">
+                    Admissions
+                </a>
+            </li>
+            <li>
+                <a role="menuitem" aria-haspopup="true" aria-expanded="false" href="#" tabindex="-1">
+                    Academics
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+<script src="https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/menubar/menubar-1/js/MenubarItemLinks.js"></script>
+<script src="https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/menubar/menubar-1/js/MenubarLinks.js"></script>
+<script src="https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/menubar/menubar-1/js/PopupMenuItemLinks.js"></script>
+<script src="https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/menubar/menubar-1/js/PopupMenuLinks.js"></script>
+<script type="text/javascript">
+    var menubar = new Menubar(document.getElementById('menubar1'));
+    menubar.init();
+</script>
+
+</html>

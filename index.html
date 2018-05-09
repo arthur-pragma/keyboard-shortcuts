@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>keyboard shortcuts</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+    </style>
+</head>
+<body>
+    <h1>Keyboard Shortcuts</h1>
+
+    <button role="button"> Toggle Menu </button>
+
+    <input type="text" placeholder="Search..." role="search">
+
+    <script src="shortcuts.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", (e) => {
+
+            var app = new Application();
+
+            document.addEventListener("keyup", app.onKeyPressed.bind(app));
+        });
+    </script>
+</body>
+</html>

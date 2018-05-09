@@ -1,0 +1,23 @@
+{
+  "app": {
+    "show": ["?"]
+  },
+  "menu": {
+    "toggle": {
+      "platform": {
+        "windows": ["alt+m"],
+        "osx": ["option+m"],
+        "linux": ["alt+m"]
+      }
+    }
+  },
+  "assistant": {
+    "toggle": {
+      "platform": {
+        "windows": ["alt+t"],
+        "osx": ["option+t"],
+        "linux": ["alt+t"]
+      }
+    }
+  }
+}
